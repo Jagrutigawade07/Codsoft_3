@@ -1,0 +1,87 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+#calculator {
+    background-color: lightgrey;
+    border: 5px solid grey;
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom:10px;
+    font-size: 18px;
+    border: 3px solid grey;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color:white;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 3px solid grey;
+    border-radius: 4px;
+    background-color: white;
+     transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: grey; 
+    border: 3px solid black;
+}
+
+button.operator.add:hover,
+button.operator.subtract:hover,
+button.operator.multiply:hover,
+button.operator.divide:hover,
+button.clear:hover,
+
+button.equal:hover {
+    background-color: lightgreen;
+    border: 3px solid green;
+}
+button.operator.add {
+    background-color: lightblue; 
+}
+
+button.operator.subtract {
+    background-color: lightblue; 
+}
+
+button.operator.multiply {
+    background-color: lightblue; 
+}
+
+button.operator.divide {
+    background-color: lightblue;
+}
+
+button.clear {
+    background-color: yellow; 
+}
+
+button.equal {
+    background-color: orange; 
+}
+
+button:active {
+    background-color: #ccc;
+}
+
